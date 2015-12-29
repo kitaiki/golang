@@ -86,4 +86,4 @@
 	- fallthrough 로 긑나는 case는 스스로 break를 하지 않는다.
 
 # 참고사이트
-	[A Tour of Go 한글](http://go-tour-kr.appspot.com/)
+	A Tour of Go 한글("http://go-tour-kr.appspot.com/")
