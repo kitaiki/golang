@@ -73,5 +73,17 @@
 	- 슬라이스의 zero value는 nil 이다 (var z []int  z는 nil)
 
 
+### 맵(Maps)
+	- 맵은 값에 키를 지정
+	- 맵은 반드시 사용하기 전에 make를 명시해야함. new가 아님
+	- make를 수행하지 않은 nil에는 값을 할달할 수 없음
+	- delete(map, key) : map에서 해당 key 요소를 지움
+	- elem, ok = map[key] : ok의 값은  map에 key가 존재한다면 true, 아니면 flase elem은 타입에 따라 0(zero value)
+
+
+### 스위치 (Switch)
+	- case코드를 마치면 알아서 break한다.
+	- fallthrough 로 긑나는 case는 스스로 break를 하지 않는다.
+
 # 참고사이트
-	- A Tour of Go 한글 (http://go-tour-kr.appspot.com/)
+	- [A Tour of Go 한글] (http://go-tour-kr.appspot.com/)
